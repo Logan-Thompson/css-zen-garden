@@ -1,13 +1,92 @@
-a {
-	color: orange;
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #f2e6b6;
+	color : #412a22;
 }
 
 header {
-	background-color: grey;
+	background-color: #5b7876;
+	color: #292929;
 	text-align: center;
 	font-weight: bold;
+	padding-top: 35px;
+    padding-right: 30px;
+    padding-bottom: 35px;
+    padding-left: 80px;
+}
+
+footer {
+	background-color: #412a22;
+	text-align: center;
+	height: 5em;
+}
+
+a {
+	
 }
 
 .summary {
-	
+	text-align: center;
+	padding-top: 15px;
+    padding-bottom: 15px;
 }
+
+.preamble {
+	display: inline-block;
+	float: left;
+	border: 3px solid red;
+	width: 40%;
+	padding: 2em;
+	padding-left: 1em;
+	height: 20em;
+
+}
+
+.explanation {
+	float: right;
+	display: inline-block;
+	width: 40%;
+	border: 3px solid red;
+	padding: 2em;
+	padding-left: 1em;
+	height: 20em;
+}
+
+.participation {
+	float: left;
+	display: inline-block;
+	width: 45%;
+	border: 3px solid red;
+	padding: 2em;
+	padding-left: 1em;
+	height: 20em;
+}
+
+.benefits {
+	float: right;
+	display: inline-block;
+	width: 40%;
+	border: 3px solid red;
+	padding: 2em;
+	padding-left: 1em;
+	height: 20em;
+}
+.requirements {
+	display: inline-block;
+	padding: 2em;
+	padding-left: 1em;
+	border: 3px solid red;
+}
+
+
+
+
+
+
+
+
+
