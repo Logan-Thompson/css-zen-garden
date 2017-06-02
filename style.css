@@ -4,8 +4,10 @@
 }
 
 body {
-	background-color: #f2e6b6;
 	color : #412a22;
+	background-image: url(http://xinature.com/wp-content/uploads/2016/10/rivers-river-mountains-fun-geirangerfjord-cool-nature-norway-wallpapers-1920x1080.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 header {
@@ -14,78 +16,121 @@ header {
 	text-align: center;
 	font-weight: bold;
 	padding-top: 35px;
-    padding-right: 30px;
     padding-bottom: 35px;
-    padding-left: 80px;
 }
 
 footer {
 	background-color: #412a22;
 	text-align: center;
 	height: 5em;
+	clear: both;
+	position: block;
+	bottom: 0;
+	width: 100%;
+	font-size: 2em;
+	opacity: 0.9;
+	color: white;
 }
 
 a {
-	
+	color: #292929;
+}
+
+a:hover {
+	color: #5b7876;
 }
 
 .summary {
+	display: inline-block;
 	text-align: center;
 	padding-top: 15px;
     padding-bottom: 15px;
+    border: 2px solid #5b7876;
+    background-color: #f2e6b6;
+    opacity: 0.8;
+    width: 100%;
 }
 
 .preamble {
 	display: inline-block;
 	float: left;
-	border: 3px solid red;
+	border: 2px solid #5b7876;
 	width: 40%;
 	padding: 2em;
 	padding-left: 1em;
-	height: 20em;
-
+	background-color: #f2e6b6;
+    opacity: 0.8;
+    margin-top: 2em;
 }
+
+
 
 .explanation {
 	float: right;
 	display: inline-block;
 	width: 40%;
-	border: 3px solid red;
+	border: 2px solid #5b7876;
 	padding: 2em;
 	padding-left: 1em;
-	height: 20em;
+	background-color: #f2e6b6;
+    opacity: 0.8;
+    margin-top: 2em;
 }
 
 .participation {
 	float: left;
 	display: inline-block;
 	width: 40%;
-	border: 3px solid red;
+	border: 2px solid #5b7876;
 	padding: 2em;
 	padding-left: 1em;
-	height: 20em;
+	background-color: #f2e6b6;
+    opacity: 0.8;
+    margin-top: 2em;
 }
 
 .benefits {
 	float: right;
 	display: inline-block;
 	width: 40%;
-	border: 3px solid red;
+	border: 2px solid #5b7876;
 	padding: 2em;
 	padding-left: 1em;
-	height: 20em;
+	background-color: #f2e6b6;
+    opacity: 0.8;
+    margin-top: 2em;
 }
 .requirements {
 	display: inline-block;
 	padding: 2em;
 	padding-left: 1em;
-	border: 3px solid red;
+	border: 2px solid #5b7876;
+	background-color: #f2e6b6;
+    opacity: 0.8;
+    margin-top: 2em;
+    margin-bottom: 1em;
 }
 
+.design-selection {
+	text-align: right;
+	display: inline-block;
+	float: right;
+}
 
+.sidebar {
+	background-color: #412a22;
+	padding: 1em;
+	opacity: 0.9;
+	color: white;
+}
 
-
-
+footer a, .sidebar a {
+	color: #6b7876;
+}
+footer a:hover, .sidebar a:hover {
+	color: red;
+	font-size: 1.02em;
+}
 
 
 
